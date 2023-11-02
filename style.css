@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: #F6F6EE;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    width: 100%;
+    height: 15vh;
+    background-color: #F6F6EE;
+}
+
+#nav #link{
+    display: flex;
+    gap: 20px;
+}
+#link a{
+    text-decoration: none;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 13px;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#nav h3 span{
+    font-weight: 600;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    background-color: #F6F6EE;
+}
+#heading h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#heading p{
+    font-size: 12px;
+    text-align: center;
+    width: 50%;
+    margin: 30px 0px;
+}
+#heading button{
+    padding: 12px 32px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
+#illus{
+    width: 100%;
+}
+#illus img{
+    width: 100%;
+}
+
+#detail{
+    display: flex;
+    justify-content: space-between;
+    padding: 10vw 5vw;
+    background-color: #F6F6EE;
+    width: 100%;
+    margin-top: 4vh;
+}
+#detail #dleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 50px;
+    width: 48%;
+    border-right: 4px solid black;
+}
+#detail #dleft #smline{
+    width: 5%;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+}
+#detail #dleft p{
+    width: 40%;
+    text-align: right;
+    font-size: 20px;
+}
+
+#detail #dright{
+    width: 48%;
+}
+#dright .feat{
+    display: flex;
+    gap: 20px;
+}
+
+.feat p{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 50%;
+}
